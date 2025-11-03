@@ -1,4 +1,7 @@
 Attribute VB_Name = "ModUtils"
+sub tims ()
+end sub
+
 Sub ShowLoggedInUsername()
     Dim windowsUser As String
     windowsUser = CreateObject("WScript.Network").userName
